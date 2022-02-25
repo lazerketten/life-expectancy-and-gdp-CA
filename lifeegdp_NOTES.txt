@@ -1,0 +1,48 @@
+Life Expectancy and GDP (portfolio project) NOTES
+
+1. Data Notes
+- GDP and life expectancy from the World Health Organization and the World Bank
+- Four columns : Country, Year, life expectancy, and GDP
+- 6 countries (Chile, China, Germany, Mexico, US, and Zimbabwe
+- 16 years (2000-2015)
+- One country for each major continent (excluding Australia and Antartica)
+- GDP as an exponent, may need to convert for visualizations
+--make seperate column in df for this conversion
+- Spaces and capitalizations, may need to create a seperate df with lowercase and removed spaces/punctuation?
+
+2. Scope
+Qs:
+Whats the richest country?
+Whats the poorest country?
+What country saw the most GDP growth over the 16 years?
+What country has the highest avg GDP (over the 16 yrs)?
+What country has the lowest avg GDP (over the 16 yrs)?
+What country has the highest avg life expec (over the 16 yrs)?
+What country has the lowest avg life expec (over the 16 yrs)?
+Is GDP correlated with life expectancy?
+
+
+visuals and calcs:
+- simple bar graph comparing GDPs between countries (per year/one year/avg?)
+- simple bar graph comparing life expecs between countries (per year/one year/avg?)
+- line graph (per country) showing GDP vs Life Expec over the years
+--make seperate dataframe for each country
+- make a table of avg life expecs and GDP per country
+--use that table to calculate statistical correlation between life expec/gdp
+
+3. Analysis/Conclusions
+The richest country (the country with the highest max GDP) is the US (1.810000e+13)
+The poorest country (the country with the lowest min GDP) is Zimbabwe (4.415703e+09)
+The country that saw the most GDP growth over the 16 years was China with 9,853,350,000,000.00
+The country with the highest average GDP is the US (1.407500e+13)
+The country with the lowest average GDP is Zimbabwe (9.062580e+09)
+The country with the highest average life expectancy is Germany with 79.7
+The country with the lowest agerage life expectancy is Zimbabwe with 50.1
+
+
+4. Additional questions
+How would the statistics on life expectancy differ between genders within each country?
+What is the infant mortality rate for each country, and how does it effect their average life expectancy?
+What percentage of GDP is invested in healthcare?
+What are statistics on causes of death within each country?
+How has any of the information changed in the years (2015 to present) that followed?
